@@ -1,0 +1,70 @@
+    @media only screen and (max-width: 1100px) {
+        section {
+            height: auto;
+        }
+        .about_cards {
+            display: none;
+        }
+        .about_cards2 {
+            display: inherit;
+        }
+        .practice-section {
+            height: 100vh;
+            flex-direction: column;
+        }
+        .about-description {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .mission_body {
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (max-width: 1100px) {
+        .heroLogo {
+            width: 100vw;
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .heroLogo {
+            width: 100vw;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {
+        .mobi-hide {
+            display: none;
+        }
+        .about_cards {
+            display: inherit;
+        }
+        .about_cards2 {
+            display: none;
+        }
+        .about_cards>.section {
+            display: flex;
+            flex-direction: column;
+        }
+        .card-1 {
+            order: 1;
+            margin-bottom: 2.5vh;
+        }
+        .card-2 {
+            order: 2;
+            margin-bottom: 2.5vh;
+        }
+        .card-3 {
+            order: 3;
+        }
+        .heroLogo {
+            width: 100vw;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .tab-hide {
+            display: none;
+        }
+    }
