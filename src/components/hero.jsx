@@ -6,7 +6,7 @@ import logo from "../assets/images/logo_with_text_white.png"
 
 const Hero = () => {
   return (
-    <section className="heroContainer container-fluid">
+    <section id="home" className="heroContainer container-fluid">
     <div className="hero">
       <img className="heroLogo" src={logo} alt="classic Sergio Pagliery law"/>
     </div>

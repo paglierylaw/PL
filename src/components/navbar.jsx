@@ -7,10 +7,10 @@ import logo from "../assets/images/Logo.png"
 const Navbar = () => {
   return (
     <div className="et-hero-tabs-container">
-      <nav class="main-nav" role='navigation'>
+      <nav className="main-nav" role='navigation'>
       <a className="et-hero-tab" href="#about">About Us</a>
       <a className="et-hero-tab" href="#practice">Practice Areas</a>
-      <img class="mobi-hide"src={logo} alt="Law firm logo"></img>
+      <img className="mobi-hide"src={logo} alt="Law firm logo"/>
       <a className="et-hero-tab" href="#mission">Our Mission</a>
       <a className="tab-hide et-hero-tab" href="#contact">Contact Us</a>
       </nav>

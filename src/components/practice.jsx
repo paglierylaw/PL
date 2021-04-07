@@ -5,7 +5,7 @@ import logo from '../assets/images/Logo.png';
 
 const Practice = () => {
   return (
-    <section className="practice-section">
+    <section id="practice" className="practice-section">
         <div className="aboutTitle">
         <h1 className="mb-2">Our <b className="title-team">Practice</b></h1>
         <h5 className="aboutSubText">Our practice is your solution.</h5>

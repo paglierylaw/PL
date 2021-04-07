@@ -4,13 +4,13 @@ import { init, sendForm } from "emailjs-com";
 init("user_lSzJ0dRlGcysjfHvof9Yv");
 const Contact = () => {
   const [contactNumber, setContactNumber] = useState("000000");
-  const formThankyou = () =>{
-      var formElement = document.getElementsByClassName(".contact-container");
-      var thankYouElement = document.getElementsByClassName(".thankyou-div");
-      formElement.classList.add("hidden");
-      thankYouElement.classList.remove("hidden");
+  // const formThankyou = () =>{
+  //     var formElement = document.getElementsByClassName(".contact-container");
+  //     var thankYouElement = document.getElementsByClassName(".thankyou-div");
+  //     formElement.classList.add("hidden");
+  //     thankYouElement.classList.remove("hidden");
 
-  }
+  // }
   const generateContactNumber = () => {
     const numStr = "000000" + ((Math.random() * 1000000) | 0);
     setContactNumber(numStr.substring(numStr.length - 6));
@@ -28,11 +28,12 @@ const Contact = () => {
       }
     );
     reset();
+    alert("")
     // formThankyou();
   };
 
   return (
-      <section className="contact-section">
+      <section id="contact" className="contact-section">
     <div className="contact-container bbox shadow-6">
   <div className="row header bbox contact-top">
     <h1 className="contact-title">&bull; CONTACT <span>US</span> &bull;<hr className="hr-text mt-0"/></h1>

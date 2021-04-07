@@ -11,11 +11,11 @@ const BrianModal = () => {
     const handleShow = () => setShow(true);
     return (
         <>
-          <span class="see_more" onClick={handleShow}>
-            See more <i class="fas fa-arrow-circle-right"></i>
+          <span className="see_more" onClick={handleShow}>
+            See more <i className="fas fa-arrow-circle-right"></i>
           </span>
     
-          <Modal class="bg-modal-1" show={show} onHide={handleClose} centered>
+          <Modal className="bg-modal-1" show={show} onHide={handleClose} centered>
           <div className="about_modal-cards mt-2">
     <div className="section">
           <div className="container dropshadow modal-card-2">

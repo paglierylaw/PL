@@ -34,6 +34,9 @@
     }
     
     @media only screen and (max-width: 640px) {
+        .heroLogo {
+            width: 100vw;
+        }
         .mobi-hide {
             display: none;
         }
@@ -43,9 +46,16 @@
         .about_cards2 {
             display: none;
         }
+        .aboutTitle {
+            width: 100%;
+        }
         .about_cards>.section {
             display: flex;
             flex-direction: column;
+        }
+        div.about_cards>div.section div {
+            padding-left: 0;
+            padding-right: 0;
         }
         .card-1 {
             order: 1;
@@ -60,6 +70,18 @@
         }
         .heroLogo {
             width: 100vw;
+        }
+        .carousel-item {
+            flex-direction: column-reverse;
+        }
+        .carousel-item__image {
+            width: 100%;
+        }
+        .carousel-item__info {
+            width: 100%;
+        }
+        .mission_body {
+            margin-bottom: 5vh;
         }
     }
     

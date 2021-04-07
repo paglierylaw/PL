@@ -1,7 +1,7 @@
 import $ from 'jquery'
 var win = $(window),
     height = win.height(),
-    width = win.width(),
+    // width = win.width(),
     navheight = $('.et-hero-tabs-container').height();
 
 function setnavHeight() {
@@ -15,11 +15,7 @@ function setnavHeight() {
 
 function sticky() {
     var scrollTop = win.scrollTop();
-    console.log(scrollTop);
-    console.log(navheight);
-    console.log("below is height")
-    console.log(height)
-    console.log(height - navheight);
+    // 
     if (isNaN(navheight)) {
         navheight = setnavHeight;
     }

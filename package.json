@@ -2,7 +2,7 @@
     "name": "client",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://Michel-Digital.github.io/",
+    "homepage": "http://Michel-Digital.github.io/sergio-pagliery",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.34",
         "@fortawesome/free-solid-svg-icons": "^5.15.2",
@@ -39,7 +39,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -b master -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -60,6 +60,7 @@
         ]
     },
     "devDependencies": {
+        "@percy/script": "^1.1.0",
         "gh-pages": "^3.1.0"
     }
 }
