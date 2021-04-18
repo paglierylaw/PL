@@ -1,18 +1,18 @@
 {
-    "short_name": "Sergio Pagliery",
-    "name": "Sergio Pagliery ",
+    "short_name": "Sergio A. Pagliery P.A",
+    "name": "Sergio A. Pagliery P.A",
     "icons": [{
-            "src": "./src/assets/images/Logo.png",
+            "src": "./src/assets/images/logo_tab.png",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "./src/assets/images/Logo.png",
+            "src": "./src/assets/images/logo_tab.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "./src/assets/images/Logo.png",
+            "src": "./src/assets/images/logo_tab.png",
             "type": "image/png",
             "sizes": "512x512"
         }
