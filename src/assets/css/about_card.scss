@@ -1,6 +1,6 @@
     $primary: #1D3557;
     $secondary: #E63946;
-    $section: #ededed;
+    $section: #ffffff;
     $muted: #999;
     $detail: #E63946;
     $title: #E63946;
@@ -53,9 +53,11 @@
     }
     
     .about-description {
-        // width: 75%;
-        padding-left: 12.5%;
-        padding-right: 12.5%;
+        width: 66%;
+        text-align: center;
+        margin: 0 auto;
+        // padding-left: 12.5%;
+        // padding-right: 12.5%;
     }
     
     .section {

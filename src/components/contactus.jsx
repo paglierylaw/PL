@@ -1,22 +1,46 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { init, sendForm } from "emailjs-com";
-init("user_lSzJ0dRlGcysjfHvof9Yv");
+// import { event } from "jquery";
+// init("user_lSzJ0dRlGcysjfHvof9Yv");
+init("user_lkYsgfYgVjBTEHigJwq2B");
 const Contact = () => {
   const [contactNumber, setContactNumber] = useState("000000");
-  // const formThankyou = () =>{
-  //     var formElement = document.getElementsByClassName(".contact-container");
-  //     var thankYouElement = document.getElementsByClassName(".thankyou-div");
-  //     formElement.classList.add("hidden");
-  //     thankYouElement.classList.remove("hidden");
+//   function wait(ms){
+//     var start = new Date().getTime();
+//     var end = start;
+//     while(end < start + ms) {
+//       end = new Date().getTime();
+//    }
+//  }
+  const formThankyou = () =>{
+      var formElement = document.getElementsByClassName("contact-container");
+      var thankYouElement = document.getElementsByClassName("thankyou-div");
+      var contactHeight = document.getElementsByClassName("contact-section")
+      var element = formElement[0];
+      var temelent = thankYouElement[0];
+      var ch = contactHeight[0];
+      element.classList.add("hidden");
+      temelent.classList.remove("hidden");
+      ch.classList.add("thank-you-height")
+  }
 
-  // }
+//   const formReset = () =>{
+//     var formElement = document.getElementsByClassName("contact-container");
+//     var thankYouElement = document.getElementsByClassName("thankyou-div");
+//     var element = formElement[0];
+//     var temelent = thankYouElement[0];
+//     wait(5000);
+//     element.classList.remove("hidden");
+//     temelent.classList.add("hidden");
+// }
   const generateContactNumber = () => {
     const numStr = "000000" + ((Math.random() * 1000000) | 0);
     setContactNumber(numStr.substring(numStr.length - 6));
   };
   const { register, handleSubmit, reset, errors } = useForm();
-  const onSubmit = (data) => {
+  const onSubmit = (data,e) => {
+    e.preventDefault();
     console.log(data);
     generateContactNumber();
     sendForm("default_service", "ContactForm", "#contact-form").then(
@@ -27,9 +51,9 @@ const Contact = () => {
         console.log("FAILED...", error);
       }
     );
+    formThankyou();
     reset();
-    alert("")
-    // formThankyou();
+    // formReset();
   };
 
   return (
@@ -52,7 +76,7 @@ const Contact = () => {
   </div>
   </div>
   <div className="row body bbox">
-    <form action="#" className="front" id="contact-form" onSubmit={handleSubmit(onSubmit)}>
+    <form action="#" className="front " id="contact-form" onSubmit={handleSubmit(onSubmit)}>
       <input type="hidden" name="contact_number" value={contactNumber} />
       <ul>
          <li>
@@ -208,11 +232,11 @@ const Contact = () => {
     </form>  
   </div>
 </div>
-	{/* <div className="thankyou-div text-center hidden">
+	<div className="thankyou-div text-center hidden">
             <h1> Thank You!</h1>
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" className="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
             <p>We will contact you regarding your inquiry as soon as possible!</p>
-    </div> */}
+    </div>
     </section>
   );
 };
