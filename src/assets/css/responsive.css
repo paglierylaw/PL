@@ -11,31 +11,39 @@
         .practice-section {
             height: 100vh;
             flex-direction: column;
+            margin-bottom: 10vh;
+            margin-top: 10vh;
         }
         .about-description {
             padding-left: 0;
             padding-right: 0;
+            margin-bottom: 10vh;
         }
         .mission_body {
             flex-direction: column;
+            margin-bottom: 25vh;
+            margin-top: 25vh;
         }
     }
     
     @media only screen and (max-width: 1100px) {
         .heroLogo {
-            width: 100vw;
+            width: 40vw;
+            overflow:hidden;
         }
     }
     
     @media only screen and (max-width: 1000px) {
         .heroLogo {
-            width: 100vw;
+            width: 50vw;
+            overflow:hidden;
         }
     }
     
     @media only screen and (max-width: 640px) {
         .heroLogo {
-            width: 100vw;
+            width: 60vw;
+            overflow:hidden;
         }
         .mobi-hide {
             display: none;
@@ -68,9 +76,6 @@
         .card-3 {
             order: 3;
         }
-        .heroLogo {
-            width: 100vw;
-        }
         .carousel-item {
             flex-direction: column-reverse;
         }
@@ -80,8 +85,24 @@
         .carousel-item__info {
             width: 100%;
         }
+        .carousel__logo{
+            margin: 150px;
+        }
         .mission_body {
             margin-bottom: 5vh;
+            margin-top: 0;
+        }
+        .blog-card {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            box-shadow: 0 3px 7px -1px rgb(0 0 0 / 10%);
+            /* margin-bottom: 1.6%; */
+            background: #fff;
+            line-height: 1.4;
+            border-radius: 5px;
+            overflow: hidden;
+            z-index: 0;
         }
     }
     

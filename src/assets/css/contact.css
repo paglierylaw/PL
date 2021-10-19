@@ -5,7 +5,10 @@ input {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+#contact{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
 .contact-container {
     max-width: 510px;
     min-width: 324px;

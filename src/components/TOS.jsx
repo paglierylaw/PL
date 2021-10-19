@@ -8,7 +8,7 @@ const TOSModal = () => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <span role="button" className="title-team cursor-pointer" onClick={handleShow}>
+      <span role="button" className="cursor-pointer" onClick={handleShow}>
       Terms & Conditions
       </span>
 

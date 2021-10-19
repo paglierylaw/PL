@@ -1,3 +1,5 @@
+import Footer from '../components/footer';
+
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { init, sendForm } from "emailjs-com";
@@ -43,7 +45,7 @@ const Contact = () => {
     e.preventDefault();
     console.log(data);
     generateContactNumber();
-    sendForm("default_service", "ContactForm", "#contact-form").then(
+    sendForm("service_9g3joxx", "default_service", "#contact-form","user_lkYsgfYgVjBTEHigJwq2B",).then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
       },
@@ -237,6 +239,7 @@ const Contact = () => {
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" className="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
             <p>We will contact you regarding your inquiry as soon as possible!</p>
     </div>
+    <Footer/>
     </section>
   );
 };

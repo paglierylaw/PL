@@ -1,5 +1,7 @@
 import React from "react";
-import logo from "../assets/images/logo_with_text_white.png"
+import logo from "../assets/images/logo_w_text_color.png"
+
+
 // import '../assets/css/navbar.scss';
 // import $ from "jquery";
 //logo for navbar needs to be imported here

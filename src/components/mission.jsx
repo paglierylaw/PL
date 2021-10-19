@@ -11,7 +11,7 @@ const Mission = () => {
         <h5 className="aboutSubText">The legal team on your side.</h5>
         <hr className="hr-text mb-5" data-content="§"/>
         </div>
-          <p className="mb-5 about-description">Over the last (years), our firm has successfully represented established a reputable presence in the Miami community. We pride ourselves on our core values that have led us to succesfully close thousands of cases. We consistantly place our clients interest above all else.We achieve our clients goals through integrity honesty and fairness. Our practice has expanded to include a multitude of areas in order to best meet the eneds of our clients. </p>
+          <p className="mb-5 about-description">Our firm has successfully represented established a reputable presence in the Miami community. We pride ourselves on our core values that have led us to succesfully close thousands of cases. We consistantly place our clients interest above all else.We achieve our clients goals through integrity honesty and fairness. Our practice has expanded to include a multitude of areas in order to best meet the eneds of our clients. </p>
     <div className="mission_body">
       <div className="blog-card">
         <div className="meta">

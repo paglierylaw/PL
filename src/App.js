@@ -38,7 +38,7 @@ function App() {
             <Practice/>
             <Mission/>
             <Contact/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }
