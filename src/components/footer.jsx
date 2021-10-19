@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo_w_text_color.png"
+// import logo from "../assets/images/logo_w_text_color.png"
 import TOSModal from "./TOS"
 
 

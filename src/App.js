@@ -11,7 +11,7 @@ import Mission from "./components/mission";
 import About from "./components/about";
 import Contact from "./components/contactus";
 import Practice from './components/practice';
-import Footer from './components/footer';
+// import Footer from './components/footer';
 import './App.css';
 import './assets/css/navbar.scss';
 import './assets/css/hero.css';
