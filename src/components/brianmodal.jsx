@@ -30,7 +30,7 @@ const BrianModal = () => {
           <div className="modal-card-body">
             <div className="user-meta has-text-centered">
               <h3 className="username">Brian Carvajal</h3>
-              <h5 className="position">Title</h5>
+              <h5 className="position">Partner</h5>
             </div>
             <div className="user-bio has-text-centered">
               <p>Graduated from the Univ. of Illinois Chicago - John Marshall Law School in 2020. While in law school, Mr. Carvajal served on former Illinois Supreme Court Justice Frossard’s Student Advisory Board, and received several Dean’s list accolades, together with the CALI award for academic excellence in Products Liability.  Mr. Carvajal was a judicial extern for the Honorable Jorge Alonso at the United States District Court for the Northern District of Illinois.  Mr. Carvajal’s prior work experience in the legal profession includes discovery and motion practice in personal injury, real estate, creditor rights and corporate transactional matters.  </p>

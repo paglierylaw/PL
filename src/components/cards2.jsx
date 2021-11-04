@@ -28,7 +28,7 @@ const ResponsiveCards = () => {
     <div className="description">
       <h1>Javier P. Pagliery</h1>
       <h2>Title</h2>
-      <p>Mr. Pagliery'sexperience in the legal profession includes personal injury matters, workers’ compensation,  first party insurance and also commercial litigation</p>
+      <p>Mr. Pagliery's experience in the legal profession includes personal injury matters, workers’ compensation,  first party insurance and also commercial litigation</p>
               <Jmodal></Jmodal>
     </div>
   </div>

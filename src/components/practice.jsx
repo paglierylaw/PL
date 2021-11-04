@@ -29,7 +29,6 @@ const Practice = () => {
     <div className="carousel-item__image"></div>
     <div className="carousel-item__info">
       <div className="carousel-item__container">
-      <p className="carousel-item__subtitle">Business <span style={{color:"red"}}>&amp;</span> Corporate </p>
       <h1 className="carousel-item__title"><span className="title-team">Transactions</span> </h1>
       <p className="carousel-item__description">Whatever your business needs may be, our firm has the experience to accomplish your goals. We provide full-scope representation from forming your business to meeting your day-to-day business needs. Our firm represents clients in a variety of business transactions including but not limited to purchasing of cash-flowing properties and businesses, acquisition and disposition of distressed assets, mergers and acquisitions, liquidations and dissolutions, and commercial leasing matters. </p>
       
@@ -40,7 +39,6 @@ const Practice = () => {
     <div className="carousel-item__image"></div>
     <div className="carousel-item__info">
       <div className="carousel-item__container">
-      <p className="carousel-item__subtitle">Personal <span style={{color:"red"}}>&amp;</span> Corporate</p>
       <h1 className="carousel-item__title">Asset <span className="title-team">Protection</span></h1>
       <p className="carousel-item__description">Our firm specializes in providing our clients with asset protection and diversification by creating a unique asset structuring plan tailored for their unique circumstances. We pride ourselves in offering our clients tranquility in the asset protection needed to accumulate and administer wealth. </p>
       
@@ -51,7 +49,6 @@ const Practice = () => {
     <div className="carousel-item__image"></div>
     <div className="carousel-item__info">
       <div className="carousel-item__container">
-      <p className="carousel-item__subtitle">Commercial <span style={{color:"red"}}>&amp;</span> Residential </p>
       <h1 className="carousel-item__title">Real <span className="title-team">Estate</span></h1>
       <p className="carousel-item__description">Our firm has been serving our clients’ real estate needs for well over two decades. Over the years we have successfully represented our clients in numerous commercial and residential transactions of all sizes, both locally and internationally. </p>
       
@@ -62,7 +59,6 @@ const Practice = () => {
     <div className="carousel-item__image"></div>
     <div className="carousel-item__info">
       <div className="carousel-item__container">
-      <p className="carousel-item__subtitle"> Trust <span style={{color:"red"}}>&amp;</span> Will  </p>
       <h1 className="carousel-item__title">Estate <span className="title-team">Planning</span></h1>
       <p className="carousel-item__description">Furthering and protecting our clients’ financial legacies is at the forefront of importance. Whether it involves the distribution of property upon death, the administration of assets in the event of incapacity, or the development of a family succession plan, our firm is well equipped to accomplish our clients’ objectives. </p>
       

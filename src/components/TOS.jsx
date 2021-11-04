@@ -40,12 +40,11 @@ const TOSModal = () => {
                           representation concerning your individual matter.
                           Information provided to us will not be treated as
                           privileged or confidential if you have not entered
-                          into an agreement to be represented by Sergio A.
-                          Pagliery, P.A. As such, you should not send any
+                          into an agreement to be represented by Pagliery Law Firm, PLLC As such, you should not send any
                           information that you deem to be privileged or
                           confidential until the time that a representation
                           agreement has been entered into. Under no
-                          circumstances shall Sergio A. Pagliery, P.A. or any of
+                          circumstances shall Pagliery Law Firm, PLLC. or any of
                           its affiliated employees be held liable for any of the
                           statements made on this website that result in damage
                           to you or anyone else due to your access of this
@@ -78,7 +77,7 @@ const TOSModal = () => {
                           subject to exposure to us merely by accessing this
                           website. <br />
                           <b className="title-team">Changes to this Privacy Policy </b>
-                          Sergio A. Pagliery, P.A. reserves the right to change,
+                          <br /> Pagliery Law Firm, PLLC. reserves the right to change,
                           modify and/or update this Privacy Policy at any time
                           without providing notice to any users. As such, any
                           changes to the sharing and/or collection of data will

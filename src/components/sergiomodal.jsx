@@ -30,7 +30,7 @@ const SergioModal = () => {
           <div className="modal-card-body">
             <div className="user-meta has-text-centered">
               <h3 className="username">Sergio A. Pagliery Jr.</h3>
-              <h5 className="position">Title</h5>
+              <h5 className="position">Founder</h5>
             </div>
             <div className="user-bio has-text-centered">
               <p>Sergio A. Pagliery Jr. received an honorable discharge with commendations from the United States Air Force in 1988 and then a baccalaureate degree from Florida International University in 1991. Mr. Pagliery received his juris doctor, magna cum laude, from St. Thomas University School of Law in 1994.  Since then, Mr. Pagliery has served in several executive and director capacities, as well as general counsel for business entrepreneurs and investors alike.  Mr. Pagliery has overseen and directed many real estate and corporate acquisitions, real estate developments, and investments in many business sectors, for both domestic and international clients.</p>
